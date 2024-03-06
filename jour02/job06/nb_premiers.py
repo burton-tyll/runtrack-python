@@ -23,6 +23,8 @@ def is_prime(nb):
 for chiffre in range(0, 1000):
 	if is_prime(chiffre)== True:
 		print(chiffre, "est un nombre premier")
+	elif is_prime(chiffre)==False:
+		print(chiffre, "n'est pas un nombre premier")
 
 
 
